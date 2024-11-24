@@ -4,6 +4,13 @@
 
 To demonstrate that dependabot is not able to update FSharp.Core
 
+tries
+
+```xml
+<DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+<PackageReference Include="FSharp.Core" Version="6.0.7" />
+```
+
 see https://github.com/dependabot/dependabot-core/issues/10883
 
 ## Log
