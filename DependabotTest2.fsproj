@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="FSharp.Core" Version="6.0.7" />
-    <PackageReference Include="ResizeArray" Version="0.16.0" />
+    <PackageReference Include="ResizeArray" Version="0.22.0" />
     <Compile Include="Library.fs" />
   </ItemGroup>
 
